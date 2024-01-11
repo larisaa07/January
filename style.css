@@ -1,9 +1,28 @@
 .bg-hero-image{
-    background-image: url('https://picsum.photos/655/300');
-    background-position: center center;
+    background-color: rgba(155, 155, 155, 0.589);
     height: 100px;
+
 }
 
 .navbar{
     height:120px;
+}
+
+.more{
+    background-color: rgb(177, 177, 177);
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-top:20px;
+}
+
+img{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+body{
+    background-color: rgba(179, 179, 179, 0.37);
+    font-family: 'Playfair Display', serif;
 }
