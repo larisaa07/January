@@ -20,6 +20,8 @@ img{
     border-width: 2px;
     border-color: black;
     border-style: solid;
+    width:300px;
+    margin-top:20px;
 }
 
 body{
@@ -34,4 +36,8 @@ button{
     border-color:black;
     border-style:solid;
 
+}
+
+#text{
+    margin-top:20px;
 }

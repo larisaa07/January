@@ -30,7 +30,7 @@
             <div class="col-12 p-5 text-center rounded-2 bg-hero-image">
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="text-black">
-                        <h1 class="mb-3">On My Birthday...</h1>
+                        <h1 class="mb-3" id="purple">On My Birthday...</h1>
                     </div>
                 </div>
             </div>
@@ -43,8 +43,14 @@
 
         <!--row 1-->
         <div class="row">
-            <div id="date">
-                <h2>February 7, 2007: <h4>My Birthday!</h4></h2>
+            <div>
+                <h2 id="date">February 7, 2007: </h2>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <h4 id="blurb">My Birthday!</h4>
             </div>
         </div>
         <!--row 1 end-->
@@ -57,16 +63,16 @@
             <!--pic and text-->
 
             <!--col 1-->
-            <div class="col-md-6 text-center" id="image">
+            <div class="col-md-6 text-center">
                 <!--picture-->
-                <img src="https://picsum.photos/200" class="portrait" alt="">
+                <img src="https://picsum.photos/200" class="portrait" alt="" id="image">
             </div>
             <!--col 1 end-->
 
             <!--col 2-->
-            <div class="col-md-6" id="text">
+            <div class="col-md-6">
             <!--text-->
-                <h5>Text about this event</h5>
+                <h5 id="text">Text about this event</h5>
             </div>
             <!--col 2 end-->
 
@@ -86,51 +92,31 @@
 
         <!--row 4-->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-2">
                 <button onclick="feb1812()" class="btn btn-secondary">February 7, 1812</button>
             </div>
-        </div>
-        <!--row 4 end-->
-
-        <!--row 5-->
-        <div class="row">
-            <div class="col-md-6">
+        
+            <div class="col-md-2">
                 <button onclick="feb1964()" class="btn btn-secondary">February 7, 1964</button>
             </div>
-        </div>
-        <!--row 5 end-->
-
-        <!--row 6-->
-        <div class="row">
-            <div class="col-md-6">
+        
+            <div class="col-md-2">
                 <button onclick="feb1984()" class="btn btn-secondary">February 7, 1984</button>
             </div>
-        </div>
-        <!--row 6 end-->
-
-        <!--row 7-->
-        <div class="row">
-            <div class="col-md-6">
+        
+            <div class="col-md-2">
                 <button onclick="feb2007()" class="btn btn-secondary">February 7, 2007</button>
             </div>
-        </div>
-        <!--row 7 end-->
-
-        <!--row 8-->
-        <div class="row">
-            <div class="col-md-6">
+        
+            <div class="col-md-2">
                 <button onclick="feb2010()" class="btn btn-secondary">February 7, 2010</button>
             </div>
-        </div>
-        <!--row 8 end-->
-
-        <!--row 9-->
-        <div class="row">
-            <div class="col-md-6">
+        
+            <div class="col-md-2">
                 <button onclick="feb2022()" class="btn btn-secondary">February 7, 2022</button>
             </div>
         </div>
-        <!--row 9 end-->
+        <!--row end-->
         
 
 
@@ -150,6 +136,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
