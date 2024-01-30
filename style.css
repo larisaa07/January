@@ -40,4 +40,8 @@ button{
 
 #text{
     margin-top:20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
 }
