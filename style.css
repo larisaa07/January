@@ -1,6 +1,9 @@
 .bg-hero-image{
     background-color: rgba(155, 155, 155, 0.589);
     height: 100px;
+    border-color: black;
+    border-style:solid;
+    border-width:2px;
 
 }
 
@@ -9,11 +12,12 @@
 }
 
 #more{
-    background-color: rgb(177, 177, 177);
+    background-color:  rgba(155, 155, 155, 0.589);
     border-width: 2px;
     border-color: black;
     border-style: solid;
     margin-top:20px;
+    padding:10px;
 }
 
 img{
@@ -25,7 +29,7 @@ img{
 }
 
 body{
-    background-color: rgba(179, 179, 179, 0.37);
+    background-color: rgba(76, 44, 105, 0.37);
     font-family: 'Playfair Display', serif;
 }
 
@@ -44,4 +48,10 @@ button{
     border-color: black;
     border-style: solid;
     padding: 10px;
+    background-color: rgba(225, 211, 236, 0.808);
+}
+
+.col-md-2{
+    margin-top:30px;
+    margin-bottom:50px;
 }

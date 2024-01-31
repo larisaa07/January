@@ -25,9 +25,9 @@ function feb1984(){
 //function to change the date, text, short blurb, and image to February 7, 2007
 function feb2007(){
     document.getElementById('date').innerText= 'February 7, 2007:'
-    document.getElementById('text').innerText= 'On Februabr 7, 2007 Larisa Avetisyan was born to Armen Avetisyan and Ashkhen Tadevosyan. She now has a younger sister and two younger brothers. She is currently 16 years old and is a junior at Marlboro High School.'
+    document.getElementById('text').innerText= "On Februabr 7, 2007 Larisa Avetisyan was born to Armen Avetisyan and Ashkhen Tadevosyan. She now has a younger sister and two younger brothers. She is currently 16 years old and is a junior at Marlboro High School."
     document.getElementById('blurb').innerText= 'My Birthday!'
-    document.getElementById('image').src= '/imgs/SpaceWalk.webp'
+    document.getElementById('image').src= '/imgs/Me+Flowers.jpeg'
 }
 
 //function to change the date, text, short blurb, and image to February 7, 2010
